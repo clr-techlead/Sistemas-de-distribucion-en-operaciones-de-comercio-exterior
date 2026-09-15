@@ -4,6 +4,8 @@ Aplicación web (React + TypeScript) que ayuda a comparar modos de transporte in
 
 > Proyecto desarrollado como complemento práctico a mi formación técnica en Operaciones de Comercio Exterior (SENA), aplicando lo aprendido en logística internacional junto con mis habilidades de desarrollo.
 
+🔗 **Demo en vivo:** https://sistemas-de-distribucion-en-operaci.vercel.app
+
 ## Qué hace
 
 - **Comparación de modos de transporte** (terrestre, marítimo, aéreo) con ficha por modo: medios utilizados, ventajas, desventajas y normativa aplicable.
