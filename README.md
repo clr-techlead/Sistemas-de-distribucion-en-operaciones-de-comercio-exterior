@@ -56,6 +56,13 @@ The production application is deployed on Vercel:
 
 Configure `API_KEY` in Vercel project settings as an environment variable. Do not commit API keys to the repository.
 
+## Roadmap
+
+- Add automated unit and integration tests for the scoring logic and key user flows.
+- Improve API error handling and loading states for the AI assistant.
+- Add result export capabilities for logistics analysis and reporting.
+- Evaluate multilingual support for international users.
+
 ## Context
 
 This project started from a real learning need: quickly understanding the differences between transport modes to make better logistics decisions. I built it to practice React, TypeScript, and AI API integration within a domain I know firsthand.
