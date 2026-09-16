@@ -40,6 +40,14 @@ npm run dev
 
 > The API key is never exposed in the source code: it is read from environment variables (`process.env.API_KEY`). Anyone running the project locally must use their own key.
 
+## Deployment
+
+The production application is deployed on Vercel:
+
+🔗 **Live deployment:** https://sistemas-de-distribucion-en-operaci.vercel.app
+
+Configure `API_KEY` in Vercel project settings as an environment variable. Do not commit API keys to the repository.
+
 ## Context
 
 This project started from a real learning need: quickly understanding the differences between transport modes to make better logistics decisions. I built it to practice React, TypeScript, and AI API integration within a domain I know firsthand.
