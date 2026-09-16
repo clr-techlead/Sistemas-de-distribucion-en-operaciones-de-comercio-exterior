@@ -3,6 +3,7 @@ import React from 'react';
 import { TRANSPORT_MODES, LEGAL_REFERENCES, TransportRating } from './constants';
 import ModeCard from './components/ModeCard';
 import AIAssistant from './components/AIAssistant';
+import ExportButton from './components/ExportButton';
 
 const RatingBadge: React.FC<{ rating: TransportRating }> = ({ rating }) => {
   const colors = {
@@ -102,6 +103,7 @@ const App: React.FC = () => {
       <section className="py-24 bg-white border-y border-slate-100 px-6 overflow-hidden">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
+            <div className="flex justify-center mt-6"><ExportButton modes={TRANSPORT_MODES} /></div>
             <span className="text-indigo-600 text-xs font-black uppercase tracking-[0.3em] mb-4 block">Visión Comparativa</span>
             <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">Matriz de Decisión Estratégica</h2>
             <p className="text-slate-500 font-medium max-w-2xl mx-auto italic">Selecciona el modo ideal basado en indicadores clave de rendimiento (KPI).</p>
