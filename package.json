@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "vitest run transport-modes.test.ts --exclude tests/**",
+    "test": "vitest run catalogue.spec.ts",
     "preview": "vite preview"
   },
   "dependencies": {
