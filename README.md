@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/clr-techlead/Sistemas-de-distribucion-en-operaciones-de-comercio-exterior/actions/workflows/node-ci.yml/badge.svg)](https://github.com/clr-techlead/Sistemas-de-distribucion-en-operaciones-de-comercio-exterior/actions/workflows/node-ci.yml)
+
 # International Transport Mode Comparison for Foreign Trade
 
 A React + TypeScript web application for comparing international transport modes — road, maritime, and air — to support logistics decisions in foreign-trade operations, with a domain-focused AI assistant.
