@@ -40,6 +40,14 @@ npm run dev
 
 > The API key is never exposed in the source code: it is read from environment variables (`process.env.API_KEY`). Anyone running the project locally must use their own key.
 
+## Project structure
+
+- `components/` — reusable interface components for the transport comparison experience.
+- `services/` — integration layer for the Gemini API assistant.
+- `App.tsx` — main application composition and user flow.
+- `types.ts` — shared TypeScript models used across the application.
+- `.github/workflows/` — automated Node.js CI checks on every push and pull request.
+
 ## Deployment
 
 The production application is deployed on Vercel:
