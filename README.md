@@ -8,6 +8,10 @@ A React + TypeScript web application for comparing international transport modes
 
 🔗 **Live demo:** https://sistemas-de-distribucion-en-operaci.vercel.app
 
+## Preview
+
+![International transport mode comparison application](./descarga.png)
+
 ## What it does
 
 - **Transport mode comparison** (road, maritime, and air), with a profile for each mode covering means of transport, advantages, disadvantages, and applicable regulations.
@@ -66,8 +70,3 @@ Configure `API_KEY` in Vercel project settings as an environment variable. Do no
 ## Context
 
 This project started from a real learning need: quickly understanding the differences between transport modes to make better logistics decisions. I built it to practice React, TypeScript, and AI API integration within a domain I know firsthand.
-
----
-
-**Camilo Andrés León Rubriche** — Data & BI Analyst  
-[LinkedIn](https://www.linkedin.com/in/caleru) · [email](mailto:camiloleonrubriche@outlook.com)
