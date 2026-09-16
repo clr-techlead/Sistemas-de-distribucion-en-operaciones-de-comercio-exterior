@@ -1,48 +1,48 @@
-# Comparador de Modos de Transporte en Comercio Exterior
+# International Transport Mode Comparison for Foreign Trade
 
-Aplicación web (React + TypeScript) que ayuda a comparar modos de transporte internacional —terrestre, marítimo y aéreo— para apoyar decisiones de logística en operaciones de comercio exterior, con un asistente de IA especializado en la materia.
+A React + TypeScript web application for comparing international transport modes — road, maritime, and air — to support logistics decisions in foreign-trade operations, with a domain-focused AI assistant.
 
-> Proyecto desarrollado como complemento práctico a mi formación técnica en Operaciones de Comercio Exterior (SENA), aplicando lo aprendido en logística internacional junto con mis habilidades de desarrollo.
+> Built as a practical complement to my technical training in Foreign Trade Operations (SENA), combining international logistics knowledge with software development skills.
 
-🔗 **Demo en vivo:** https://sistemas-de-distribucion-en-operaci.vercel.app
+🔗 **Live demo:** https://sistemas-de-distribucion-en-operaci.vercel.app
 
-## Qué hace
+## What it does
 
-- **Comparación de modos de transporte** (terrestre, marítimo, aéreo) con ficha por modo: medios utilizados, ventajas, desventajas y normativa aplicable.
-- **Calificación por criterio** — costo, velocidad, capacidad, flexibilidad e impacto ecológico — con indicadores visuales de nivel (alto / medio / bajo).
-- **Asistente de logística con IA** (Gemini API): responde preguntas del usuario sobre transporte multimodal con enfoque en eficiencia, costos y normativa internacional.
+- **Transport mode comparison** (road, maritime, and air), with a profile for each mode covering means of transport, advantages, disadvantages, and applicable regulations.
+- **Criteria-based scoring** — cost, speed, capacity, flexibility, and environmental impact — with visual high / medium / low indicators.
+- **AI logistics assistant** (Gemini API) that answers questions about multimodal transport, with a focus on efficiency, costs, and international regulations.
 
-## Stack técnico
+## Tech stack
 
 - React + TypeScript
 - Vite
-- Google Gemini API (`@google/genai`) para el asistente conversacional
+- Google Gemini API (`@google/genai`) for the conversational assistant
 
-## Cómo correrlo localmente
+## Run locally
 
-**Requisitos:** Node.js
+**Requirement:** Node.js
 
 ```bash
 npm install
 ```
 
-Crea un archivo `.env.local` en la raíz con tu propia clave de la API de Gemini:
+Create a `.env.local` file in the project root with your own Gemini API key:
 
 ```
-API_KEY=tu_clave_aqui
+API_KEY=your_api_key_here
 ```
 
 ```bash
 npm run dev
 ```
 
-> La clave de API nunca se expone en el código: se lee desde variables de entorno (`process.env.API_KEY`). Cada persona que corra el proyecto usa su propia clave.
+> The API key is never exposed in the source code: it is read from environment variables (`process.env.API_KEY`). Anyone running the project locally must use their own key.
 
-## Contexto
+## Context
 
-Este proyecto nació de una necesidad real de mi formación en comercio exterior: entender rápido las diferencias entre modos de transporte para tomar mejores decisiones logísticas. Lo construí como aplicación web para practicar React/TypeScript e integración con APIs de IA, aplicado a un dominio que conozco de primera mano.
+This project started from a real learning need: quickly understanding the differences between transport modes to make better logistics decisions. I built it to practice React, TypeScript, and AI API integration within a domain I know firsthand.
 
 ---
 
-**Camilo Andrés León Rubriche** — Data & BI Analyst
-[LinkedIn](https://www.linkedin.com/in/caleru) · [correo](mailto:camiloleonrubriche@outlook.com)
+**Camilo Andrés León Rubriche** — Data & BI Analyst  
+[LinkedIn](https://www.linkedin.com/in/caleru) · [email](mailto:camiloleonrubriche@outlook.com)
